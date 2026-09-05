@@ -1,0 +1,51 @@
+:root {
+  /* Colors */
+  --surface-base: #F7F8FA;
+  --surface-raised: #FFFFFF;
+  --surface-sunken: #EEF0F3;
+  --text-primary: #14181F;
+  --text-secondary: #4B5563;
+  --text-muted: #8A93A3;
+  --color-primary: #1F3B57;
+  --color-primary-hover: #16293D;
+  --color-warning: #946200;
+  --color-danger: #9B2C2C;
+  --color-focus: #2B7A78;
+  --border-hairline: #D8DCE3;
+
+  /* Status colors (dot + text, never color alone) */
+  --status-open: #946200;
+  --status-investigating: #1F3B57;
+  --status-resolved: #1E7A4C;
+  --status-pending: #8A93A3;
+  --status-denied: #9B2C2C;
+  --status-approved: #1E7A4C;
+
+  /* Typography */
+  --font-sans: "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+
+  --font-size-1: 13px;
+  --font-size-2: 14px;
+  --font-size-3: 16px;
+  --font-size-4: 20px;
+  --font-size-5: 24px;
+  --font-size-6: 32px;
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+
+  /* Shadow (modals/dropdowns only) */
+  --shadow-modal: 0 4px 16px rgba(20, 24, 31, 0.12);
+}
