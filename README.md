@@ -23,13 +23,6 @@ actual algorithm — those implementations must be written by us.** The one exce
 salts) — generating randomness isn't the algorithm being assigned, and hand-rolling a
 random number generator would be a worse idea than using the platform's.
 
-## Design docs
-
-Full product spec (PRD → TDD → App Flow → Design Brief → Backend Design → Engineering
-Plan) lives in [`docs/`](./docs). `CLAUDE.md` at the repo root tracks where the current
-implementation still diverges from those docs — read it before assuming the docs
-describe what's actually built.
-
 ## Roles
 
 | Role               | Capabilities                                                                         |
